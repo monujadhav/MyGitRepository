@@ -5,6 +5,11 @@ static void myMethod(){
                 System.out.println("HelloWorld....Welcome to git..!!!");
 }
  public static void main(String args[]){
-HelloWorld.myMethod();
+
+
+
+HelloWorld obj = new HelloWorld();
+obj.myMethod();
+
 }
 }
