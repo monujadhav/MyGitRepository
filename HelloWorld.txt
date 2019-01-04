@@ -5,5 +5,7 @@ void myMethod(){
                 System.out.println("HelloWorld....Welcome to git..!!!");
 }
  public static void main(String args[]){
+HelloWorld obj = new HelloWorld();
+obj.myMethod();
 }
 }
